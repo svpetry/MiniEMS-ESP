@@ -166,8 +166,8 @@
 	(net 27 "Net-(Q11-B)")
 	(net 28 "Net-(R10-Pad1)")
 	(net 29 "RX")
-	(net 30 "Net-(U3-FREQ)")
-	(net 31 "Net-(U3-EN)")
+	(net 30 "/EMS interface/BUCK_FREQ")
+	(net 31 "/EMS interface/BUCK_EN")
 	(net 32 "/EMS interface/BUCK_FB")
 	(net 33 "/CC2")
 	(net 34 "/CC1")
@@ -4739,7 +4739,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "17b1983a-6fbb-4afa-b315-5891c9b67e30")
@@ -4895,7 +4895,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 30 "Net-(U3-FREQ)")
+			(net 30 "/EMS interface/BUCK_FREQ")
 			(pintype "passive")
 			(uuid "766a5881-ac44-4d96-93e3-e580f60cb7d5")
 		)
@@ -6206,7 +6206,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "c351b67b-c138-49a4-9dc6-0bdc171c7354")
@@ -6362,7 +6362,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 31 "Net-(U3-EN)")
+			(net 31 "/EMS interface/BUCK_EN")
 			(pintype "passive")
 			(uuid "1197fe5a-6019-453c-8843-8106f89ff520")
 		)
@@ -7760,7 +7760,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(U3-EN)")
+			(net 31 "/EMS interface/BUCK_EN")
 			(pinfunction "EN")
 			(pintype "input")
 			(uuid "edd953d1-b9e7-4136-a429-b9528a693fa9")
@@ -7800,7 +7800,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(U3-FREQ)")
+			(net 30 "/EMS interface/BUCK_FREQ")
 			(pinfunction "FREQ")
 			(pintype "input")
 			(uuid "c4873da7-e599-4ea2-a106-9e56d2e013e7")
@@ -8054,7 +8054,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5b77ff6b-0539-4cc1-b800-1baf2ff0664a")
@@ -8219,7 +8219,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 31 "Net-(U3-EN)")
+			(net 31 "/EMS interface/BUCK_EN")
 			(pintype "passive")
 			(uuid "18179708-e729-4ed4-a8bd-1565ae0d7486")
 		)
@@ -8253,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "84ac7d47-fcdf-48e7-aaeb-37f723c3aecf")
@@ -11574,7 +11574,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "220"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "1919e181-204d-4ebd-886a-e4c46b80c25e")
