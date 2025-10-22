@@ -2487,6 +2487,12 @@
 		(uuid "54b7ea8b-424f-4199-b575-aba4f8eda868")
 	)
 	(junction
+		(at 104.14 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c8a307f-e2a4-4a8f-8db2-806a167bbf51")
+	)
+	(junction
 		(at 248.92 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2545,12 +2551,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b670ca06-81bb-4b21-9ca9-6c07599f148f")
-	)
-	(junction
-		(at 104.14 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7e03235-3ed0-4277-83b5-d185dd81802c")
 	)
 	(junction
 		(at 130.81 176.53)
@@ -2629,6 +2629,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff86875c-ccaf-42a8-ae81-e80e56d0421d")
+	)
+	(wire
+		(pts
+			(xy 104.14 156.21) (xy 104.14 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0462db6e-c88c-4455-bcab-085d4a8f178f")
 	)
 	(wire
 		(pts
@@ -3022,7 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 175.26) (xy 104.14 176.53)
+			(xy 104.14 173.99) (xy 104.14 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3109,16 +3119,6 @@
 			(type default)
 		)
 		(uuid "50e560de-3f5c-4281-b1aa-824ed8b431c2")
-	)
-	(wire
-		(pts
-			(xy 104.14 156.21) (xy 104.14 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54bbd899-0d79-4036-8169-16fec645ae1b")
 	)
 	(wire
 		(pts
@@ -3299,16 +3299,6 @@
 			(type default)
 		)
 		(uuid "732a9658-1f22-48d1-9a60-e21560023030")
-	)
-	(wire
-		(pts
-			(xy 104.14 165.1) (xy 104.14 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751c017c-329a-45c0-ac41-dffb862783f2")
 	)
 	(wire
 		(pts
@@ -4848,7 +4838,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 171.45 0)
+		(at 104.14 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4857,7 +4847,7 @@
 		(dnp no)
 		(uuid "1c67f8ca-93ff-46a0-90be-85b40e4d4c3c")
 		(property "Reference" "R5"
-			(at 101.6 170.1799 0)
+			(at 101.6 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4856,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 101.6 172.7199 0)
+			(at 101.6 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4865,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 105.918 171.45 90)
+			(at 105.918 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 171.45 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4883,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 171.45 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,76 +5435,6 @@
 			(project "Mini-EMS-ESP"
 				(path "/20733457-9944-4316-ad39-5a8b057f497f/61ccb107-b821-45d5-b4c1-418cacc613b5"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 161.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35c2bb5d-18eb-4255-a058-dd18bf7d7563")
-		(property "Reference" "R24"
-			(at 101.6 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30"
-			(at 101.6 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 105.918 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a671898-6166-454f-8381-fd1851f875b0")
-		)
-		(pin "2"
-			(uuid "8222d60c-936c-4fe4-9dd5-8f829d762dfe")
-		)
-		(instances
-			(project "Mini-EMS-ESP"
-				(path "/20733457-9944-4316-ad39-5a8b057f497f/61ccb107-b821-45d5-b4c1-418cacc613b5"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6447,6 +6367,76 @@
 			(project "Mini-EMS-ESP"
 				(path "/20733457-9944-4316-ad39-5a8b057f497f/61ccb107-b821-45d5-b4c1-418cacc613b5"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69101b2e-0b65-4020-80f9-1c65fb9b1e7e")
+		(property "Reference" "R24"
+			(at 101.6 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 101.6 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.918 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0847c75b-8bf4-4cfa-ba6e-4964c035bf52")
+		)
+		(pin "2"
+			(uuid "caef6407-c09c-4af9-8a65-1ec02e83d293")
+		)
+		(instances
+			(project "Mini-EMS-ESP"
+				(path "/20733457-9944-4316-ad39-5a8b057f497f/61ccb107-b821-45d5-b4c1-418cacc613b5"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8635,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
 			(at 22.86 101.6 0)
 			(effects
 				(font
